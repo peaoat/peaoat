@@ -7,9 +7,8 @@ app.controller('headerCtrl', ['$scope', function($scope) {
 app.controller('pCtrl', ['$scope', function($scope) {
   $scope.hi = 'Hello World';
 }])
-  .directive('vW', function() {
+.directive('vW', function() {
   return {
-    restrict: 'E',
     template: '<p>lmao</p>',
   };
 });

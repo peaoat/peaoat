@@ -11,6 +11,6 @@ app.controller('pCtrl', ['$scope', function($scope) {
 app.directive('volusionWidget', function() {
   return {
     restrict: 'E',
-    templateUrl: 'volusionWidget',
+    templateUrl: 'volusionWidget.html',
   }
 });

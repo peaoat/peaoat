@@ -6,9 +6,10 @@ app.controller('headerCtrl', ['$scope', function($scope) {
 
 app.controller('pCtrl', ['$scope', function($scope) {
   $scope.hi = 'Hello World';
-}])
-.directive('vW', function() {
+}]);
+
+app.directive('widget', function() {
   return {
-    template: '<p>lmao</p>',
+    template : "<p>lmao</p>",
   };
 });

@@ -6,9 +6,8 @@ app.controller('headerCtrl', ['$scope', function($scope) {
 
 app.controller('pCtrl', ['$scope', function($scope) {
   $scope.hi = 'Hello World';
-}]);
-
-app.directive('volusionWidget', function() {
+}])
+  .directive('volusionWidget', function() {
   return {
     restrict: 'E',
     templateUrl: 'js/volusionWidget.html',

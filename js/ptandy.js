@@ -10,6 +10,6 @@ app.controller('pCtrl', ['$scope', function($scope) {
 
 app.directive('widget', function() {
   return {
-    template : "<p>lmao</p>",
+    templateUrl : "volusionWidget.html",
   };
 });
